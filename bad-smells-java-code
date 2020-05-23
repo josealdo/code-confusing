@@ -1,0 +1,119 @@
+@Override
+    public ResponseEntity<AuditLogPagedResults> getLogEntries(
+    		@ApiParam(value = "Environment ID", required = true) @PathVariable("environmentId") Long environmentId,
+	   	  	@ApiParam(value = "ID of the queue manager to browse") @Valid @RequestParam(value = "queueManager", required = false) Long queueManager,
+	   	  	@ApiParam(value = "ID of the queue to browse") @Valid @RequestParam(value = "queue", required = false) Long queue,
+	   	  	@ApiParam(value = "Browse for messages newer than a date/time") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) @RequestParam(value = "from", required = false) @Valid LocalDateTime from,
+	   	  	@ApiParam(value = "Correlation ID to browse for") @Valid @RequestParam(value = "correlationId", required = false) String correlationId,
+	   	  	@ApiParam(value = "Page of results to return") @Valid @RequestParam(value = "page", required = false) Integer page,
+            @ApiParam(value = "Number of results in a page") @Valid @RequestParam(value = "pagesize", required = false) Integer pagesize) {
+        Pageable pageable = PageRequest.of(page != null ? page : 0, pagesize != null ? pagesize : defaultPageSize, new Sort(Sort.Direction.DESC, Audit.MSG_PUT_TIMESTAMP_FIELD));
+        Page<Audit> auditEntries = null;
+        Timestamp msgPut = (from != null ? Timestamp.valueOf(from) : null);
+
+        /*
+         * Environemnt is always supplied.  If we have queue or queue manager, assume that's what the caller wants.
+         * We may also have some optional parameters - put timestamp, correlation ID
+         */
+        if (queue != null) {
+        	//retrieve queue name
+        	String queueName = null;
+        	Optional<WMQQueue> queueEntity = wmqQueueRepository.findById(queue.intValue());
+        	queueName = queueEntity.get().getQ_name();
+        	
+        	//see if we have timestamp or correlation ID
+			if (msgPut != null) {
+				if (correlationId != null) {
+					auditEntries = auditRepository.findByQNameAndCorrelIdAndMsgPutTimestampGreaterThanEqual(queueName, msgPut, correlationId, pageable);
+				} else {
+					auditEntries = auditRepository.findByQNameAndMsgPutTimestampGreaterThanEqual(queueName, msgPut, pageable);
+				}
+			} else {
+				if (correlationId != null) {
+					auditEntries = auditRepository.findByQNameAndCorrelId(queueName, correlationId, pageable);
+				} else {
+					auditEntries = auditRepository.findByQName(queueName, pageable);
+				}
+			}
+        } else if (queueManager != null) {
+            List<Integer> managerIds = Arrays.asList(queueManager.intValue());
+        	//see if we have timestamp or correlation ID
+			if (msgPut != null) {
+				if (correlationId != null) {
+                    auditEntries = auditRepository.findByManagerIdsAndCorrelIdAndMsgPutTimestampGreaterThanEqual(managerIds, msgPut, correlationId, pageable);
+				} else {
+                    auditEntries = auditRepository.findByManagerIdsAndMsgPutTimestamp(managerIds, msgPut, pageable);
+				}
+			} else {
+				if (correlationId != null) {
+                    auditEntries = auditRepository.findByManagerIdsAndCorrelId(managerIds, correlationId, pageable);
+				} else {
+                    auditEntries = auditRepository.findByManagerIds(managerIds, pageable);
+				}
+			}
+throw new java.lang.UnsupportedOperationException("Implementations does not exist");
+        } else {
+	        List<Integer> managerIds = findManagerIds(environmentId);
+	
+	        if(managerIds.isEmpty()) {
+	            //No QueueManager so no possible log entries
+	            return ResponseEntity.ok().body(null);
+	        }
+	
+	        if (msgPut != null) {
+	            auditEntries = auditRepository.findByManagerIdsAndMsgPutTimestamp(managerIds, msgPut, pageable);
+	        } else {
+	            auditEntries = auditRepository.findByManagerIds(managerIds, pageable);
+	        }
+        }
+        
+        
+        /*
+        if (correlationId != null && msgPut != null) {
+            auditEntries = auditRepository.findByCorrelIdAndMsgPutTimestampGreaterThanEqual(correlationId, msgPut, pageable);
+        } else if (queueName != null && msgPut != null) {
+            auditEntries = auditRepository.findByQNameAndMsgPutTimestampGreaterThanEqual(queueName, msgPut, pageable);
+        } else if (queueName != null) {
+            auditEntries = auditRepository.findByQName(queueName, pageable);
+        } else if (correlationId != null) {
+            auditEntries = auditRepository.findByCorrelId(correlationId, pageable);
+        } else {
+            List<Integer> managerIds = findManagerIds(environmentId);
+
+            if(managerIds.isEmpty()) {
+                //No QueueManager so no possible log entries
+                return ResponseEntity.ok().body(null);
+            }
+
+            if (msgPut != null) {
+                auditEntries = auditRepository.findByManagerIdsAndMsgPutTimestamp(managerIds, msgPut, pageable);
+            } else {
+                auditEntries = auditRepository.findByManagerIds(managerIds, pageable);
+            }
+        }
+*/
+        if (auditEntries != null) {
+	        AuditLogPagedResults results = new AuditLogPagedResults();
+	        results.setPageNumber(pageable.getPageNumber());
+	        results.setPageSize(pageable.getPageSize());
+	        results.setPages(auditEntries.getTotalPages());
+	        results.setResults(mapperFacade.mapAsList(auditEntries.getContent(), AuditLogEntry.class));
+	        return ResponseEntity.ok().body(results);
+        } else {
+        	throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Not found");
+        }
+    }
+
+    
+    /* (non-Javadoc)
+	 * @see com.arcelormittal.springTemplate.web.MessagesApi#getLogEntry(java.lang.Long, java.lang.Long)
+	 */
+	@Override
+	public ResponseEntity<AuditLogEntry> getLogEntry(Long environmentId, Long logId) {
+		Optional<Audit> entry = auditRepository.findById(logId);
+		if (entry.isPresent()) {
+			return ResponseEntity.ok().body(mapperFacade.map(entry.get(), AuditLogEntry.class));
+		} else {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Not found");
+		}
+	}
