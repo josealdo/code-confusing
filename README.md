@@ -1,6 +1,6 @@
-# code confusing
+# Decoding Confusing Code: Social Representations among Developers
 
-
-// The confusing code example of C++ is availabe at: https://<span></span>shitcode.net/159.<br/>
-// The confusing code example of Java is availabe at: https://<span></span>shitcode.net/399. <br/>
-// The confusing code example of Python is availabe at: https://<span></span>shitcode.net/413. 
+LTE-raw characterization data are availabe <a href="https://github.com/josealdo/EMSE20-ifdefs-with-eye-tracking/blob/master/Results">here</a>.
+LTE-terms evoked are availabe <a href="https://github.com/josealdo/EMSE20-ifdefs-with-eye-tracking/blob/master/Results">here</a>.
+Edge-raw characterization data are availabe <a href="https://github.com/josealdo/EMSE20-ifdefs-with-eye-tracking/blob/master/Results">here</a>.
+Edge-terms evoked are availabe <a href="https://github.com/josealdo/EMSE20-ifdefs-with-eye-tracking/blob/master/Results">here</a>.
