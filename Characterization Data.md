@@ -10,11 +10,11 @@
 <hr>
 	<p><center>
 		<h1>Overview</h1>
-		<A HREF="#table0">LTE</A><br>
-		<A HREF="#table1">Edge</A><br>
+		<A HREF="#table0">C1</A><br>
+		<A HREF="#table1">C2</A><br>
 		
 <hr>
-<A NAME="table0"><h1>Sheet 1: <em>LTE</em></h1></A>
+<A NAME="table0"><h1>Sheet 1: <em>C1</em></h1></A>
 <table cellspacing="0" border="0">
 	<colgroup width="80"></colgroup>
 	<colgroup width="142"></colgroup>
@@ -22,7 +22,7 @@
 	<colgroup width="221"></colgroup>
 	<colgroup span="6" width="113"></colgroup>
 	<tr>
-		<td style="border-bottom: 1px solid #000000" colspan=10 height="28" align="center" valign=bottom><b><font size=4>LTE- Characterization Data</font></b></td>
+		<td style="border-bottom: 1px solid #000000" colspan=10 height="28" align="center" valign=bottom><b><font size=4>C1- Characterization Data</font></b></td>
 		</tr>
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="88" align="left" valign=middle bgcolor="#FFFF00"><b><font size=3>Dev. ID</font></b></td>
@@ -423,7 +423,7 @@
 </table>
 <!-- ************************************************************************** -->
 <hr>
-<A NAME="table1"><h1>Sheet 2: <em>Edge</em></h1></A>
+<A NAME="table1"><h1>Sheet 2: <em>C2</em></h1></A>
 <table cellspacing="0" border="0">
 	<colgroup width="80"></colgroup>
 	<colgroup width="142"></colgroup>
@@ -436,7 +436,7 @@
 	<colgroup width="105"></colgroup>
 	<colgroup width="89"></colgroup>
 	<tr>
-		<td style="border-bottom: 1px solid #000000" colspan=10 height="28" align="center" valign=bottom><b><font size=4>Edge- Characterization Data</font></b></td>
+		<td style="border-bottom: 1px solid #000000" colspan=10 height="28" align="center" valign=bottom><b><font size=4>C2- Characterization Data</font></b></td>
 		</tr>
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="91" align="center" valign=middle bgcolor="#FFFF00"><b><font size=3>Dev. ID</font></b></td>
@@ -537,7 +537,7 @@
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="80" align="center" valign=middle><font size=3>H</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Undergraduate</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Comecei o desenvolvimento de software da universidade e ap&oacute;s a universidade entrei para o Edge, onde permane&ccedil;o at&eacute; hoje, desenvolvendo softwares para a industria</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Comecei o desenvolvimento de software da universidade e ap&oacute;s a universidade entrei para o C2, onde permane&ccedil;o at&eacute; hoje, desenvolvendo softwares para a industria</td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><font size=3>C, C++, Python, Rust, Java</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Very Low</font></td>
@@ -549,7 +549,7 @@
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="120" align="center" valign=middle><font size=3>I</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Undergraduate</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Participei por 7 meses em um projeto de P&amp;D atrav&eacute;s do Edge para a Petrobras. H&aacute; 1 ano, fa&ccedil;o parte da equipe de sistemas embarcados do Edge, desenvolvendo firwmares e hardwares. Al&eacute;m de trabalhar com otimiza&ccedil;&atilde;o cont&iacute;nua e combinat&oacute;ria no mestrado.</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Participei por 7 meses em um projeto de P&amp;D atrav&eacute;s do C2 para a Petrobras. H&aacute; 1 ano, fa&ccedil;o parte da equipe de sistemas embarcados do C2, desenvolvendo firwmares e hardwares. Al&eacute;m de trabalhar com otimiza&ccedil;&atilde;o cont&iacute;nua e combinat&oacute;ria no mestrado.</td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><font size=3>C/C++, Python, Java, Javascript, Verilog, Assembly, R, Prolog</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
@@ -573,7 +573,7 @@
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="197" align="center" valign=middle><font size=3>K</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Undergraduate</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Trabalho com desenvolvimento de software h&aacute; 5 anos. Aprendi por conta pr&oacute;pria a programar e comecei desenvolvendo scripts para servidores de jogos online. Em seguida entrei para a faculdade de ci&ecirc;ncia da computa&ccedil;&atilde;o. No segundo per&iacute;odo, consegui uma bolsa para desenvolver um sistema web para a Petrobras em parceria com o EDGE, me mantive nesta bolsa at&eacute; o &uacute;ltimo per&iacute;odo da gradua&ccedil;&atilde;o. Hoje em dia ainda trabalho desenvolvendo sistemas web para a Petrobras mas agora em tempo integral.</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Trabalho com desenvolvimento de software h&aacute; 5 anos. Aprendi por conta pr&oacute;pria a programar e comecei desenvolvendo scripts para servidores de jogos online. Em seguida entrei para a faculdade de ci&ecirc;ncia da computa&ccedil;&atilde;o. No segundo per&iacute;odo, consegui uma bolsa para desenvolver um sistema web para a Petrobras em parceria com o C2, me mantive nesta bolsa at&eacute; o &uacute;ltimo per&iacute;odo da gradua&ccedil;&atilde;o. Hoje em dia ainda trabalho desenvolvendo sistemas web para a Petrobras mas agora em tempo integral.</td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><font size=3>LUA, JavaScript, Java, C, C++, Python</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
@@ -597,7 +597,7 @@
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="287" align="center" valign=middle><font size=3>M</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Undergraduate</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Minha experi&ecirc;ncia com desenvolvimento de software come&ccedil;ou no ensimo m&eacute;dio j&aacute; que fiz o ensino m&eacute;dio integrado com o t&eacute;cnico no IFAL, l&aacute;, o sistema mais complexo que fiz foi um gerenciador para a biblioteca do IFAL que foi utilizado por um tempo antes de ser substituido por outro sistema. Em seguida entrei para a gradua&ccedil;&atilde;o em ci&ecirc;ncia da computa&ccedil;&atilde;o na ufal, a partir do terceiro periodo entrei em bolsas de pesquisa onde programei principalmente com os frameworks angular e django, tamb&eacute;m programei com ionic para desenvolver aplicativos hibridos e tive experi&ecirc;ncia em data science (tamb&eacute;m por conta da pesquisa). Hoje em dia fui contratado como desenvolvedor do EDGE onde mesclo minhas fun&ccedil;&otilde;es entre desenvolvimento e a pesquisa (utilizando t&eacute;cnicas de data science)</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Minha experi&ecirc;ncia com desenvolvimento de software come&ccedil;ou no ensimo m&eacute;dio j&aacute; que fiz o ensino m&eacute;dio integrado com o t&eacute;cnico no IFAL, l&aacute;, o sistema mais complexo que fiz foi um gerenciador para a biblioteca do IFAL que foi utilizado por um tempo antes de ser substituido por outro sistema. Em seguida entrei para a gradua&ccedil;&atilde;o em ci&ecirc;ncia da computa&ccedil;&atilde;o na ufal, a partir do terceiro periodo entrei em bolsas de pesquisa onde programei principalmente com os frameworks angular e django, tamb&eacute;m programei com ionic para desenvolver aplicativos hibridos e tive experi&ecirc;ncia em data science (tamb&eacute;m por conta da pesquisa). Hoje em dia fui contratado como desenvolvedor do C2 onde mesclo minhas fun&ccedil;&otilde;es entre desenvolvimento e a pesquisa (utilizando t&eacute;cnicas de data science)</td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><font size=3>Python, C, C++, Java, C#, JavaScript, TypeScript e Dart</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
@@ -645,7 +645,7 @@
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="42" align="center" valign=middle><font size=3>Q</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Undergraduate student</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Realizei pequenos projetos pessoais e atualmente atuo no EDGE como desenvolvedor junior</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Realizei pequenos projetos pessoais e atualmente atuo no C2 como desenvolvedor junior</td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><font size=3>Java, C, Python</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Low</font></td>
@@ -669,7 +669,7 @@
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="300" align="center" valign=middle><font size=3>S</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Undergraduate</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Sempre quis ser programador, e no primeiro per&iacute;odo me apaixonei por programa&ccedil;&atilde;o competitiva. Sigo competindo at&eacute; hoje e alcancei desempenho n&iacute;vel nacional. Participei de um projeto de otimzia&ccedil;&atilde;o de tr&acirc;nsito atrav&eacute;s de sem&aacute;foros inteligentes (usando programa&ccedil;&atilde;o linear e l&oacute;gica fuzzy), e outro projeto de otimiza&ccedil;&agrave;o de f&oacute;rmulas para c&aacute;lculo do poder da lentre intra-ocular (usando aprendizagem de m&aacute;quina). Iniciei como Full-Stack meio per&iacute;odo no Edge em 2019, num projeto com a Ingenico. Atualmente estou de Back-End meio per&iacute;odo no num projeto com a SMART (no Edge), R&amp;D meio per&iacute;odo num projeto com a ZUQ (no Edge), e Engenheiro de Software numa Start-Up (iniciada com colegas do curso).</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Sempre quis ser programador, e no primeiro per&iacute;odo me apaixonei por programa&ccedil;&atilde;o competitiva. Sigo competindo at&eacute; hoje e alcancei desempenho n&iacute;vel nacional. Participei de um projeto de otimzia&ccedil;&atilde;o de tr&acirc;nsito atrav&eacute;s de sem&aacute;foros inteligentes (usando programa&ccedil;&atilde;o linear e l&oacute;gica fuzzy), e outro projeto de otimiza&ccedil;&agrave;o de f&oacute;rmulas para c&aacute;lculo do poder da lentre intra-ocular (usando aprendizagem de m&aacute;quina). Iniciei como Full-Stack meio per&iacute;odo no C2 em 2019, num projeto com a Ingenico. Atualmente estou de Back-End meio per&iacute;odo no num projeto com a SMART (no C2), R&amp;D meio per&iacute;odo num projeto com a ZUQ (no C2), e Engenheiro de Software numa Start-Up (iniciada com colegas do curso).</td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><font size=3>C++; Python; C; C#; Java; Swift; Dart; TypeScript; SQL; JavaScript; Processing; Julia; Haskell; Assembly</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Low</font></td>
@@ -705,7 +705,7 @@
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="100" align="center" valign=middle><font size=3>V</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Undergraduate</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Durante a gradua&ccedil;&atilde;o desenvolvi uma aplica&ccedil;&atilde;o voltada para Pr&eacute;-diab&eacute;ticos por 3 anos, ap&oacute;s isso, entrei como desenvolvedor no EDGE, na maior parte dos projetos trabalhei com desenvolvimento mobile e hoje trabalho com desenvolvimento web</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Durante a gradua&ccedil;&atilde;o desenvolvi uma aplica&ccedil;&atilde;o voltada para Pr&eacute;-diab&eacute;ticos por 3 anos, ap&oacute;s isso, entrei como desenvolvedor no C2, na maior parte dos projetos trabalhei com desenvolvimento mobile e hoje trabalho com desenvolvimento web</td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><font size=3>Java, C++, C, Python, JS, R, Kotlin</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Low</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Low</font></td>
@@ -789,7 +789,7 @@
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="120" align="center" valign=middle><font size=3>AC</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Undergraduate</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Ajudei a desenvolver um software mobile para acompanhamento de doen&ccedil;as cr&ocirc;nicas. Desenvolvi um software mobile para vistoria de transporte p&uacute;blico para a superintend&ecirc;ncia municipal de transporte e tr&acirc;nsito de macei&oacute;. Atualmente sou desenvolvedor frontend pelo Edge.</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Ajudei a desenvolver um software mobile para acompanhamento de doen&ccedil;as cr&ocirc;nicas. Desenvolvi um software mobile para vistoria de transporte p&uacute;blico para a superintend&ecirc;ncia municipal de transporte e tr&acirc;nsito de macei&oacute;. Atualmente sou desenvolvedor frontend pelo C2.</td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><font size=3>c, c++, java, javascript, python, dart</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Low</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Low</font></td>
@@ -813,7 +813,7 @@
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="60" align="center" valign=middle><font size=3>AE</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Undergraduate</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Desenvolvimento de sites, sistemas web e apps Android, para pequenas empresas<br>Desenvolvedor J&uacute;nior na empresa EDGE</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Desenvolvimento de sites, sistemas web e apps Android, para pequenas empresas<br>Desenvolvedor J&uacute;nior na empresa C2</td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><font size=3>C, C++, C#, Java, PHP, Python, Assembly, javascript, Kotlin, Swift</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
@@ -848,7 +848,7 @@
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="80" align="center" valign=middle><font size=3>AH</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Undergraduate</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Possuo cerca de 3 anos de experi&ecirc;ncia como desenvolvedor front-end, atuando tanto na parte web quanto mobile, j&aacute; atuei em empresas privadas e startups antes de vir para a UFAL/EDGE</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Possuo cerca de 3 anos de experi&ecirc;ncia como desenvolvedor front-end, atuando tanto na parte web quanto mobile, j&aacute; atuei em empresas privadas e startups antes de vir para a UFAL/C2</td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><font size=3>Javascript, PHP, Python, Dart</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
@@ -872,7 +872,7 @@
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="100" align="center" valign=middle><font size=3>AJ</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Undergraduate</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Venho trabalhando na empresa EDGE com as linguagens C# Asp.NET MVC e Javascript (3 anos), React (4 meses) E Vue (9 meses). Al&eacute;m dessas, posso destacar MySQL, JQuery, HTML, Java, Java para Android e CSS.</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Venho trabalhando na empresa C2 com as linguagens C# Asp.NET MVC e Javascript (3 anos), React (4 meses) E Vue (9 meses). Al&eacute;m dessas, posso destacar MySQL, JQuery, HTML, Java, Java para Android e CSS.</td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><font size=3>Java, Java para Android, Flutter, C#, C, C++, Lua, Vue, React e JavaScript.</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
@@ -884,7 +884,7 @@
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="80" align="center" valign=middle><font size=3>AK</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Undergraduate</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Trabalho diretamente com a ind&uacute;stria a mais de 5 anos, atuando em laborat&oacute;rios com o edge e easy. Al&eacute;m disso, j&aacute; trabalhei como freenlancer atuando no desenvolvimento web e mobile.</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Trabalho diretamente com a ind&uacute;stria a mais de 5 anos, atuando em laborat&oacute;rios com o C2 e easy. Al&eacute;m disso, j&aacute; trabalhei como freenlancer atuando no desenvolvimento web e mobile.</td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><font size=3>Java, Python, Javascript, C, C++, C#, Pascal</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>High</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><font size=3>Very High</font></td>
