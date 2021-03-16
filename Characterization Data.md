@@ -14,7 +14,7 @@
 		<A HREF="#table1">Edge</A><br>
 		
 <hr>
-<A NAME="table0"><h1>Community 1: <em>LTE</em></h1></A>
+<A NAME="table0"><h1>Community 1: LTE</h1></A>
 <table cellspacing="0" border="0">
 	<colgroup width="80"></colgroup>
 	<colgroup width="142"></colgroup>
@@ -423,7 +423,7 @@
 </table>
 <!-- ************************************************************************** -->
 <hr>
-<A NAME="table1"><h1>Community 2: <em>Edge</em></h1></A>
+<A NAME="table1"><h1>Community 2: Edge</h1></A>
 <table cellspacing="0" border="0">
 	<colgroup width="80"></colgroup>
 	<colgroup width="142"></colgroup>
