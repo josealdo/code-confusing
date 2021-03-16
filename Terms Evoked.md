@@ -10,17 +10,17 @@
 <hr>
 	<p><center>
 		<h1>Overview</h1>
-		<A HREF="#table0">C1</A><br>
-		<A HREF="#table1">C2</A><br>
+		<A HREF="#table0">LTE</A><br>
+		<A HREF="#table1">Edge</A><br>
 		
 <hr>
-<A NAME="table0"><h1>Sheet 1: <em>C1</em></h1></A>
+<A NAME="table0"><h1>Sheet 1: <em>LTE</em></h1></A>
 <table cellspacing="0" border="0">
 	<colgroup width="68"></colgroup>
 	<colgroup span="5" width="179"></colgroup>
 	<colgroup width="680"></colgroup>
 	<tr>
-		<td style="border-bottom: 1px solid #000000" colspan=7 height="60" align="center" valign=middle><b><font size=5 color="#000000">C1- Terms Evoked</font></b></td>
+		<td style="border-bottom: 1px solid #000000" colspan=7 height="60" align="center" valign=middle><b><font size=5 color="#000000">LTE - Terms Evoked</font></b></td>
 		</tr>
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" height="45" align="center" valign=middle bgcolor="#FFFF00" sdnum="1033;0;@"><b><font size=4>Dev. ID</font></b></td>
@@ -337,7 +337,7 @@
 	<colgroup span="5" width="179"></colgroup>
 	<colgroup width="680"></colgroup>
 	<tr>
-		<td style="border-bottom: 1px solid #000000" colspan=7 height="60" align="center" valign=middle><b><font size=5 color="#000000">C2- Terms Evoked</font></b></td>
+		<td style="border-bottom: 1px solid #000000" colspan=7 height="60" align="center" valign=middle><b><font size=5 color="#000000">Edge - Terms Evoked</font></b></td>
 		</tr>
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" height="45" align="center" valign=middle bgcolor="#FFFF00" sdnum="1033;0;@"><b><font size=4>Dev. ID</font></b></td>
