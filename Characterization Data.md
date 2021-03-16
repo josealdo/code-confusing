@@ -10,11 +10,11 @@
 <hr>
 	<p><center>
 		<h1>Overview</h1>
-		<A HREF="#table0">C1</A><br>
-		<A HREF="#table1">C2</A><br>
+		<A HREF="#table0">LTE</A><br>
+		<A HREF="#table1">Edge</A><br>
 		
 <hr>
-<A NAME="table0"><h1>Sheet 1: <em>C1</em></h1></A>
+<A NAME="table0"><h1>Sheet 1: <em>LTE</em></h1></A>
 <table cellspacing="0" border="0">
 	<colgroup width="80"></colgroup>
 	<colgroup width="142"></colgroup>
@@ -22,7 +22,7 @@
 	<colgroup width="221"></colgroup>
 	<colgroup span="6" width="113"></colgroup>
 	<tr>
-		<td style="border-bottom: 1px solid #000000" colspan=10 height="28" align="center" valign=bottom><b><font size=4>C1- Characterization Data</font></b></td>
+		<td style="border-bottom: 1px solid #000000" colspan=10 height="28" align="center" valign=bottom><b><font size=4>LTE - Characterization Data</font></b></td>
 		</tr>
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="88" align="left" valign=middle bgcolor="#FFFF00"><b><font size=3>Dev. ID</font></b></td>
@@ -423,7 +423,7 @@
 </table>
 <!-- ************************************************************************** -->
 <hr>
-<A NAME="table1"><h1>Sheet 2: <em>C2</em></h1></A>
+<A NAME="table1"><h1>Sheet 2: <em>Edge</em></h1></A>
 <table cellspacing="0" border="0">
 	<colgroup width="80"></colgroup>
 	<colgroup width="142"></colgroup>
@@ -436,7 +436,7 @@
 	<colgroup width="105"></colgroup>
 	<colgroup width="89"></colgroup>
 	<tr>
-		<td style="border-bottom: 1px solid #000000" colspan=10 height="28" align="center" valign=bottom><b><font size=4>C2- Characterization Data</font></b></td>
+		<td style="border-bottom: 1px solid #000000" colspan=10 height="28" align="center" valign=bottom><b><font size=4>Edge- Characterization Data</font></b></td>
 		</tr>
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="91" align="center" valign=middle bgcolor="#FFFF00"><b><font size=3>Dev. ID</font></b></td>
