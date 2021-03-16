@@ -331,7 +331,7 @@
 </table>
 <!-- ************************************************************************** -->
 <hr>
-<A NAME="table1"><h1>Sheet 2: <em>C2</em></h1></A>
+<A NAME="table1"><h1>Sheet 2: <em>Edge</em></h1></A>
 <table cellspacing="0" border="0">
 	<colgroup width="68"></colgroup>
 	<colgroup span="5" width="179"></colgroup>
